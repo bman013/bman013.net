@@ -1,6 +1,11 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -95,9 +100,42 @@ a{
     padding: 10px;
 }
 
+/* section 4 */
+.section-4{
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.section-4 h2{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.section-4 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin:0;
+}
+
+.section-4 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.0rem;
+    padding-left: 0;
+    margin-left: 10px;
+}
+
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-4 a:hover{
+    font-size: 1.0rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
